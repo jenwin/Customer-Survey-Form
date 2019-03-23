@@ -140,16 +140,21 @@ html {
   width: 4.7rem;
 }
 
-/***************tablets***************/
+/***************tablets****************/
+/***************portrait***************/
+/***************landscape**************/
 @media screen
-and ( max-width: 1024px ) {
+and ( min-width: 1024px )
+and ( max-width: 1366px ) {
 .main-wrapper {
   margin: 3rem 10rem;
 }
 }
 
 @media screen
-and ( max-width: 768px ) {
+and ( min-width: 768px )
+and ( max-width: 1023px )
+and ( orientation: portrait ) {
 .main-wrapper {
   margin: 3rem;
 }
@@ -528,7 +533,7 @@ and ( min-width: 569px )
 and ( max-width: 811px )
 and ( orientation: landscape ) {
 .main-wrapper {
-  margin: 1.5rem 2rem;
+  margin: 1.5rem 1rem;
 }
 
 .author-info {
