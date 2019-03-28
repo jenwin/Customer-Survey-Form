@@ -112,7 +112,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .favorites-wrapper {
-  margin-top: -1.6rem;
+  margin-top: -1rem;
 }
 
 .recommend-wrapper {
@@ -135,7 +135,6 @@ input[type=number]::-webkit-outer-spin-button {
 .favorites-list,
 .recommend-list {
   list-style-type: none;
-  margin-top: 1.2rem;
   padding-left: 0;
 }
 

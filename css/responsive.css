@@ -15,10 +15,6 @@ and ( max-width: 1400px ) {
 }
 
 /***************form*****************/
-.favorites-wrapper {
-  margin-top: -1.4rem;
-}
-
 .recommend-wrapper {
   margin-bottom: -0.7rem;
 }
@@ -59,6 +55,10 @@ and ( max-width: 1023px ) {
 .recommend-title,
 .comments {
   font-size: 1.05rem;
+}
+
+.favorites-list {
+  margin-top: 1.12rem;
 }
 }
 
@@ -335,28 +335,30 @@ and ( orientation: landscape ) {
 }
 
 /***************form*****************/
-.favorites-wrapper {
-  margin-top: -1rem;
-}
-
 .recommend-wrapper {
   margin: -0.7rem 0;
 }
 
-.favorites-list,
-.recommend-list {
-  margin-top: 1rem;
+.favorites-list {
+  margin-top: 1.05rem;
 }
 }
 
 @media screen
-and ( min-width: 812px )
-and ( max-width: 824px )
+and ( min-width: 641px )
+and ( max-width: 668px )
 and ( orientation: landscape ) {
-/***************form*****************/
-.favorites-list,
-.recommend-list {
-  margin-top: 0.9rem;
+.favorites-wrapper {
+  margin-top: -1.45rem;
+}
+}
+
+@media screen
+and ( min-width: 569px )
+and ( max-width: 640px )
+and ( orientation: landscape ) {
+.favorites-wrapper {
+  margin-top: -1.55rem;
 }
 }
 
@@ -370,6 +372,10 @@ and ( orientation: landscape ) {
 }
 
 /***************form*****************/
+.favorites-wrapper {
+    margin-top: -1.5rem;
+}
+
 .customer-comments {
   width: 12rem;
 }
