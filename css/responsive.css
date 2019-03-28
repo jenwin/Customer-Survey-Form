@@ -1,0 +1,376 @@
+/***************tablets****************/
+/***************portrait***************/
+/***************landscape**************/
+@media screen
+and ( min-width: 1024px )
+and ( max-width: 1400px ) {
+/***************header***************/
+/***************main*****************/
+.main-wrapper {
+  width: 65%;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+/***************form*****************/
+.favorites-wrapper {
+  margin-top: -1.4rem;
+}
+
+.recommend-wrapper {
+  margin-bottom: -0.7rem;
+}
+}
+
+@media screen
+and ( min-width: 1366px )
+and ( max-width: 1400px )
+and ( orientation: landscape ) {
+/***************main*****************/
+.main-wrapper {
+  width: 50%;
+}
+}
+
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1023px ) {
+/***************header***************/
+/***************main*****************/
+.main-wrapper {
+  width: 85%;
+}
+
+.description {
+  font-size: 1.55rem;
+}
+
+/***************form*****************/
+#name-label,
+#email-label,
+#number-label {
+  font-size: 0.97rem;
+}
+
+.referral-title,
+.favorites-title,
+.recommend-title,
+.comments {
+  font-size: 1.05rem;
+}
+}
+
+/***************mobile*****************/
+/***************portrait***************/
+@media screen
+and ( min-width: 375px )
+and ( max-width: 767px )
+and ( orientation: portrait ) {
+/***************header***************/
+/***************main*****************/
+.title {
+  font-size: 1.7rem;
+}
+
+.main-wrapper {
+  width: 96%;
+}
+
+.description {
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+
+/***************form*****************/
+.customer-info-wrapper {
+  margin-top: -0.5rem;
+}
+
+.left-info {
+  margin: 0.8rem 0 0.5rem 0;
+  width: 100%;
+}
+
+#name-label,
+#email-label,
+#number-label,
+.referral-title,
+.comments {
+  float: left;
+}
+
+#name,
+#email,
+#age,
+.dropdown {
+  height: 2rem;
+}
+
+.favorites-wrapper {
+  margin-top: 0;
+}
+
+.recommend-wrapper {
+  margin: -0.16rem 0 -0.2rem 0;
+}
+
+.referral-title {
+  margin-bottom: -0.6rem;
+}
+
+.favorites-title,
+.recommend-title,
+.comments {
+  padding: 0;
+  text-align: left;
+}
+
+.favorites-list,
+.recommend-list,
+.customer-comments {
+  margin: -0.7rem 0;
+}
+}
+
+@media screen
+and ( min-width: 400px )
+and ( max-width: 767px )
+and ( orientation: portrait ) {
+/***************form*****************/
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
+  width: 19.5rem;
+}
+}
+
+@media screen
+and ( min-width: 375px )
+and ( max-width: 399px )
+and ( orientation: portrait ) {
+/***************header***************/
+.description {
+  padding: 1.5rem;
+}
+
+/***************form*****************/
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
+  width: 17.5rem;
+}
+}
+
+@media screen
+and ( min-width: 300px )
+and ( max-width: 374px )
+and ( orientation: portrait ) {
+/***************header***************/
+/***************main*****************/
+.main-wrapper {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  width: 95%;
+}
+
+.description {
+  padding: 1.5rem;
+}
+
+/***************form*****************/
+.left-info {
+  margin: 0.8rem 0 0.5rem 0;
+  width: 100%;
+}
+
+#name-label,
+#email-label,
+#number-label,
+.referral-title {
+  float: left;
+}
+
+#name,
+#email,
+#age,
+.dropdown {
+  height: 2rem;
+}
+
+.comments,
+.favorites-title,
+.recommend-title {
+  text-align: left;
+}
+
+.customer-comments {
+  margin-top: -0.5rem;
+}
+
+#submit {
+  margin-top: -1rem;
+}
+}
+
+@media screen
+and ( min-width: 321px )
+and ( max-width: 374px )
+and ( orientation: portrait ) {
+/***************header***************/
+.title {
+  font-size: 1.6rem;
+}
+
+.description {
+  font-size: 1.3rem;
+}
+
+/***************form*****************/
+.customer-info-wrapper {
+  margin-top: -0.5rem;
+}
+
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
+  width: 17.4rem;
+}
+
+.favorites-wrapper {
+  margin-top: 0;
+}
+
+.recommend-wrapper {
+  margin-top: -1.2rem;
+}
+
+.referral-title {
+  margin-bottom: -0.6rem;
+}
+
+.favorites-list,
+.recommend-list {
+  margin-top: -0.8rem;
+}
+}
+
+@media screen
+and ( max-width: 320px )
+and ( orientation: portrait ) {
+/***************header***************/
+/***************main*****************/
+.title {
+  font-size: 1.3rem;
+}
+
+.main-wrapper {
+  margin-top: 2rem;
+}
+
+.description {
+  font-size: 1.13rem;
+}
+
+/***************form*****************/
+.customer-info-wrapper {
+  margin-top: -1rem;
+}
+
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
+  width: 15rem;
+}
+
+.referral-title,
+.favorites-title,
+.recommend-title,
+.comments {
+  font-size: 0.94rem;
+}
+
+.favorites-wrapper {
+  margin-top: 0;
+}
+
+.referral-title {
+  margin-bottom: -0.5rem;
+}
+
+.recommend-list,
+.favorites-list {
+  margin-top: -0.7rem;
+}
+}
+
+/***************mobile******************/
+/***************landscape***************/
+@media screen
+and ( min-width: 300px )
+and ( max-width: 1023px )
+and ( orientation: landscape ) {
+/***************header***************/
+/***************main*****************/
+.title {
+  font-size: 1.8rem;
+}
+
+.main-wrapper {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.description {
+  font-size: 1.35rem;
+}
+
+/***************form*****************/
+.favorites-wrapper {
+  margin-top: -1rem;
+}
+
+.recommend-wrapper {
+  margin: -0.7rem 0;
+}
+
+.favorites-list,
+.recommend-list {
+  margin-top: 1rem;
+}
+}
+
+@media screen
+and ( min-width: 812px )
+and ( max-width: 824px )
+and ( orientation: landscape ) {
+/***************form*****************/
+.favorites-list,
+.recommend-list {
+  margin-top: 0.9rem;
+}
+}
+
+@media screen
+and ( max-width: 568px )
+and ( orientation: landscape ) {
+/***************main*****************/
+.main-wrapper {
+  margin-top: 2rem;
+  width: 95%;
+}
+
+/***************form*****************/
+.customer-comments {
+  width: 12rem;
+}
+}

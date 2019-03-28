@@ -7,9 +7,10 @@
   <meta name="description" content="jen's cupcakes and pastries customer survey form">
   <meta name="author" content="Jennifer Nguyen">
   <title>Jen's Cupcakes & Pastries Survey Form</title>
-  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -27,19 +28,19 @@
         <label id="name-label" for="name">* Name:</label>
       </div>
       <div class="right-info">
-        <input id="name" type="text" value="Enter your name" onfocus="this.value=''" required>
+        <input id="name" type="text" value="Enter your name" onfocus="this.value=''" autocomplete="off" required>
       </div>
       <div class="left-info">
         <label id="email-label" for="email">* Email:</label>
       </div>
       <div class="right-info">
-        <input id="email" type="email" value="Enter your email" onfocus="this.value=''" required>
+        <input id="email" type="email" value="Enter your email" onfocus="this.value=''" autocomplete="off" required>
       </div>
       <div class="left-info">
         <label id="number-label" for="age">* Age:</label>
       </div>
       <div class="right-info">
-        <input id="age" type="number" min="1" max="120" placeholder="Enter your age" required>
+        <input id="age" type="number" min="1" max="120" placeholder="Enter your age" autocomplete="off" required>
       </div>
     </div>
 
@@ -48,7 +49,7 @@
       <div class="left-info">
         <h3 class="referral-title">How did you hear about us?</h3>
       </div>
-      <div class="right-info">
+      <div class="right-info custom-drop">
         <select class="dropdown">
           <option value="family-friends">Family/Friends</option>
           <option value="television">Television</option>
@@ -70,37 +71,44 @@
         <ul class="right-info favorites-list">
           <li>
             <label for="cronut">
-              <input id="cronut" type="checkbox" value="cronut" name="dessert">Cronut
+              <input id="cronut" type="checkbox" value="cronut" name="dessert">
+                Cronut
             </label>
           </li>
           <li>
             <label for="muffin">
-              <input id="muffin" type="checkbox" value="muffin" name="dessert">Chocolate Chip Muffin
+              <input id="muffin" type="checkbox" value="muffin" name="dessert">
+                Chocolate Chip Muffin
             </label>
           </li>
           <li>
             <label for="cinnamon-roll">
-              <input id="cinnamon-roll" type="checkbox" value="cinnamon-roll" name="dessert">Cinnamon Roll
+              <input id="cinnamon-roll" type="checkbox" value="cinnamon-roll" name="dessert">
+                Cinnamon Roll
             </label>
           </li>
           <li>
             <label for="donut">
-              <input id="donut" type="checkbox" value="donut" name="dessert">Jelly Donut
+              <input id="donut" type="checkbox" value="donut" name="dessert">
+                Jelly Donut
             </label>
           </li>
           <li>
             <label for="fig-roll">
-              <input id="fig-roll" type="checkbox" value="fig-roll" name="dessert">Fig Roll
+              <input id="fig-roll" type="checkbox" value="fig-roll" name="dessert">
+                Fig Roll
             </label>
           </li>
           <li>
             <label for="macaron">
-              <input id="macaron" type="checkbox" value="macaron" name="dessert">Macaron
+              <input id="macaron" type="checkbox" value="macaron" name="dessert">
+                Macaron
             </label>
           </li>
           <li>
             <label for="cupcake">
-              <input id="cupcake" type="checkbox" value="cupcake" name="dessert">Red Velvet Cupcake
+              <input id="cupcake" type="checkbox" value="cupcake" name="dessert">
+                Red Velvet Cupcake
             </label>
           </li>
         </ul>
@@ -114,17 +122,20 @@
         <ul class="right-info recommend-list">
           <li>
             <label for="yes">
-              <input id="yes" type="radio" value="yes" name="yes-no-maybe">Yes
+              <input id="yes" type="radio" value="yes" name="yes-no-maybe">
+                Yes
             </label>
           </li>
           <li>
             <label for="no">
-              <input id="no" type="radio" value="no" name="yes-no-maybe">No
+              <input id="no" type="radio" value="no" name="yes-no-maybe">
+                No
             </label>
           </li>
           <li>
             <label for="maybe">
-              <input id="maybe" type="radio" value="maybe" name="yes-no-maybe">Maybe
+              <input id="maybe" type="radio" value="maybe" name="yes-no-maybe">
+                Maybe
             </label>
           </li>
         </ul>
@@ -140,7 +151,7 @@
       </div>
 
     <div class="submit-wrapper">
-      <button id="submit" type="submit">Submit</button>
+      <button id="submit" type="submit"><i class="fas fa-paper-plane"></i>Send</button>
     </div>
   </form>
 </main>
