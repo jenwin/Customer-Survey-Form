@@ -9,8 +9,8 @@ html {
   background: linear-gradient(#d5f8e8, #bff2f1, #b5e9fc, #bcddff, #d0cefa) fixed;
   font-family: 'Varela Round', sans-serif;
   height: 100vh;
-  min-width: 300px;
   margin: 0;
+  min-width: 300px;
   width: 100%;
 }
 
@@ -44,7 +44,7 @@ html {
   text-align: center;
 }
 
-/***************begin form***************/
+/***************form*****************/
 .left-info,
 .right-info {
   display: inline-block;

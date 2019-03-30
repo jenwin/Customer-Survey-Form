@@ -89,16 +89,18 @@ and ( orientation: portrait ) {
 }
 
 .left-info {
-  margin: 0.8rem 0 0.5rem 0;
-  width: 100%;
+  margin: 0.8rem 0;
 }
 
-#name-label,
-#email-label,
-#number-label,
-.referral-title,
-.comments {
-  float: left;
+.left-info,
+.right-info,
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
+  text-align: left;
+  width: 100%;
 }
 
 #name,
@@ -135,35 +137,12 @@ and ( orientation: portrait ) {
 }
 
 @media screen
-and ( min-width: 400px )
-and ( max-width: 767px )
-and ( orientation: portrait ) {
-/***************form*****************/
-#name,
-#email,
-#age,
-.dropdown,
-.customer-comments {
-  width: 19.5rem;
-}
-}
-
-@media screen
 and ( min-width: 375px )
 and ( max-width: 399px )
 and ( orientation: portrait ) {
 /***************header***************/
 .description {
   padding: 1.5rem;
-}
-
-/***************form*****************/
-#name,
-#email,
-#age,
-.dropdown,
-.customer-comments {
-  width: 17.5rem;
 }
 }
 
@@ -185,7 +164,16 @@ and ( orientation: portrait ) {
 
 /***************form*****************/
 .left-info {
-  margin: 0.8rem 0 0.5rem 0;
+  margin: 0.8rem 0;
+}
+
+.left-info,
+.right-info,
+#name,
+#email,
+#age,
+.dropdown,
+.customer-comments {
   width: 100%;
 }
 
@@ -236,14 +224,6 @@ and ( orientation: portrait ) {
   margin-top: -0.5rem;
 }
 
-#name,
-#email,
-#age,
-.dropdown,
-.customer-comments {
-  width: 17.4rem;
-}
-
 .favorites-wrapper {
   margin-top: 0;
 }
@@ -273,6 +253,7 @@ and ( orientation: portrait ) {
 
 .main-wrapper {
   margin-top: 2rem;
+  width: 95%;
 }
 
 .description {
@@ -284,12 +265,10 @@ and ( orientation: portrait ) {
   margin-top: -1rem;
 }
 
-#name,
-#email,
-#age,
-.dropdown,
-.customer-comments {
-  width: 15rem;
+.left-info {
+  margin: 0.8rem 0;
+  text-align: left;
+  width: 100%;
 }
 
 .referral-title,
@@ -348,6 +327,7 @@ and ( orientation: landscape ) {
 and ( min-width: 641px )
 and ( max-width: 668px )
 and ( orientation: landscape ) {
+/***************form*****************/
 .favorites-wrapper {
   margin-top: -1.45rem;
 }
@@ -357,6 +337,7 @@ and ( orientation: landscape ) {
 and ( min-width: 569px )
 and ( max-width: 640px )
 and ( orientation: landscape ) {
+/***************form*****************/
 .favorites-wrapper {
   margin-top: -1.55rem;
 }
