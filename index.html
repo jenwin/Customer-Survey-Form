@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="jen's cupcakes and pastries customer survey form">
+  <meta name="keywords" content="html, css, survey, forms, survey form">
   <meta name="author" content="Jennifer Nguyen">
   <title>Jen's Cupcakes & Pastries Survey Form</title>
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -15,11 +16,11 @@
 
 <body>
 <header class="title-hdr">
-  <h1 class="title">Jen's Cupcakes & Pastries</h1>
+  <h1 class="title" tabindex="0">Jen's Cupcakes & Pastries</h1>
 </header>
 
 <main class="main-wrapper">
-  <p class="description">Share your thoughts with us!</p>
+  <p class="description" tabindex="0">Share your thoughts with us!</p>
 
   <form action="#" method="post" id="survey-form">
     <!-- customer name, email, age -->
@@ -47,26 +48,26 @@
     <!-- referral options -->
     <div class="referral-wrapper">
       <div class="left-info">
-        <h3 class="referral-title">How did you hear about us?</h3>
+        <label for="dropdown" class="referral-title">How did you hear about us?</label>
       </div>
       <div class="right-info">
-        <select class="dropdown">
-          <option value="family-friends">Family/Friends</option>
-          <option value="television">Television</option>
-          <option value="internet">Internet Search</option>
-          <option value="social-media">Social Media</option>
-          <option value="radio">Radio</option>
-          <option value="walk-in">Walk In</option>
-          <option value="magazine">Magazine</option>
-          <option value="other">Other</option>
-        </select>
+          <select id="dropdown">
+            <option value="family-friends">Family/Friends</option>
+            <option value="television">Television</option>
+            <option value="internet">Internet Search</option>
+            <option value="social-media">Social Media</option>
+            <option value="radio">Radio</option>
+            <option value="walk-in">Walk In</option>
+            <option value="magazine">Magazine</option>
+            <option value="other">Other</option>
+          </select>
       </div>
     </div>
 
     <!-- favorite dessert checklist -->
     <div class="favorites-wrapper">
       <div class="left-info">
-        <h3 class="favorites-title">What are your favorite desserts?<br/>(Check all that apply)</h3>
+        <h3 class="favorites-title" tabindex="0">What are your favorite desserts?<br/>(Check all that apply)</h3>
       </div>
         <ul class="right-info favorites-list">
           <li>
@@ -117,7 +118,7 @@
     <!-- customer recommendation -->
     <div class="recommend-wrapper">
       <div class="left-info">
-        <h3 class="recommend-title">Would you recommend us to a friend?</h3>
+        <h3 class="recommend-title" tabindex="0">Would you recommend us to a friend?</h3>
       </div>
         <ul class="right-info recommend-list">
           <li>
@@ -142,13 +143,15 @@
     </div>
 
     <!-- comments and suggestions box -->
-    <div class="left-info">
-      <h3 class="comments">Any comments or suggestions?</h3>
-    </div>
+    <div class="comments-wrapper">
+      <div class="left-info">
+        <label for="customer-comments" class="comments">Any comments or suggestions?</label>
+      </div>
       <div class="right-info">
-        <textarea class="customer-comments" rows="4" cols="30" onfocus="this.value=''">Enter your comments...
+        <textarea id="customer-comments" rows="4" cols="30" onfocus="this.value=''">Enter your comments...
         </textarea>
       </div>
+    </div>
 
     <div class="submit-wrapper">
       <button id="submit" type="submit"><i class="fas fa-paper-plane"></i>Send</button>
@@ -157,7 +160,7 @@
 </main>
 
 <footer class="author-info">
-  <p class="copyright">© Jennifer Nguyen</p>
+  <p class="copyright" tabindex="0">© Jennifer Nguyen</p>
 </footer>
 </body>
 </html>

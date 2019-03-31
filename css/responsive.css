@@ -15,8 +15,8 @@ and ( max-width: 1400px ) {
 }
 
 /***************form*****************/
-.recommend-wrapper {
-  margin-bottom: -0.7rem;
+.customer-info-wrapper {
+  margin-top: -0.45rem;
 }
 }
 
@@ -27,6 +27,11 @@ and ( orientation: landscape ) {
 /***************main*****************/
 .main-wrapper {
   width: 50%;
+}
+
+/***************form*****************/
+.customer-info-wrapper {
+  margin-top: -0.35rem;
 }
 }
 
@@ -48,17 +53,6 @@ and ( max-width: 1023px ) {
 #email-label,
 #number-label {
   font-size: 0.97rem;
-}
-
-.referral-title,
-.favorites-title,
-.recommend-title,
-.comments {
-  font-size: 1.05rem;
-}
-
-.favorites-list {
-  margin-top: 1.12rem;
 }
 }
 
@@ -85,7 +79,7 @@ and ( orientation: portrait ) {
 
 /***************form*****************/
 .customer-info-wrapper {
-  margin-top: -0.5rem;
+  margin-top: -1rem;
 }
 
 .left-info {
@@ -97,8 +91,8 @@ and ( orientation: portrait ) {
 #name,
 #email,
 #age,
-.dropdown,
-.customer-comments {
+#dropdown,
+#customer-comments {
   text-align: left;
   width: 100%;
 }
@@ -106,32 +100,20 @@ and ( orientation: portrait ) {
 #name,
 #email,
 #age,
-.dropdown {
+#dropdown {
   height: 2rem;
 }
 
-.favorites-wrapper {
-  margin-top: 0;
-}
-
 .recommend-wrapper {
-  margin: -0.16rem 0 -0.2rem 0;
+  margin-top: -0.16rem;
 }
 
-.referral-title {
-  margin-bottom: -0.6rem;
-}
-
-.favorites-title,
-.recommend-title,
-.comments {
-  padding: 0;
-  text-align: left;
+.comments-wrapper {
+  margin-top: 1.7rem;
 }
 
 .favorites-list,
-.recommend-list,
-.customer-comments {
+.recommend-list {
   margin: -0.7rem 0;
 }
 }
@@ -172,35 +154,27 @@ and ( orientation: portrait ) {
 #name,
 #email,
 #age,
-.dropdown,
-.customer-comments {
+.favorites-title,
+.recommend-title,
+#dropdown,
+#customer-comments,
+.comments {
   width: 100%;
-}
-
-#name-label,
-#email-label,
-#number-label,
-.referral-title {
-  float: left;
+  text-align: left;
 }
 
 #name,
 #email,
 #age,
-.dropdown {
+#dropdown {
   height: 2rem;
 }
 
-.comments,
-.favorites-title,
-.recommend-title {
-  text-align: left;
+.comments-wrapper {
+  margin-top: 0.75rem;
 }
 
-.customer-comments {
-  margin-top: -0.5rem;
-}
-
+/***************submit*****************/
 #submit {
   margin-top: -1rem;
 }
@@ -221,19 +195,11 @@ and ( orientation: portrait ) {
 
 /***************form*****************/
 .customer-info-wrapper {
-  margin-top: -0.5rem;
-}
-
-.favorites-wrapper {
-  margin-top: 0;
+  margin-top: -1rem;
 }
 
 .recommend-wrapper {
   margin-top: -1.2rem;
-}
-
-.referral-title {
-  margin-bottom: -0.6rem;
 }
 
 .favorites-list,
@@ -271,21 +237,6 @@ and ( orientation: portrait ) {
   width: 100%;
 }
 
-.referral-title,
-.favorites-title,
-.recommend-title,
-.comments {
-  font-size: 0.94rem;
-}
-
-.favorites-wrapper {
-  margin-top: 0;
-}
-
-.referral-title {
-  margin-bottom: -0.5rem;
-}
-
 .recommend-list,
 .favorites-list {
   margin-top: -0.7rem;
@@ -314,12 +265,8 @@ and ( orientation: landscape ) {
 }
 
 /***************form*****************/
-.recommend-wrapper {
-  margin: -0.7rem 0;
-}
-
-.favorites-list {
-  margin-top: 1.05rem;
+.customer-info-wrapper {
+  margin-top: -0.5rem;
 }
 }
 
@@ -329,7 +276,7 @@ and ( max-width: 668px )
 and ( orientation: landscape ) {
 /***************form*****************/
 .favorites-wrapper {
-  margin-top: -1.45rem;
+  margin-top: -0.9rem;
 }
 }
 
@@ -339,7 +286,11 @@ and ( max-width: 640px )
 and ( orientation: landscape ) {
 /***************form*****************/
 .favorites-wrapper {
-  margin-top: -1.55rem;
+  margin-top: -0.6rem;
+}
+
+.referral-title {
+  text-align: left;
 }
 }
 
@@ -354,10 +305,6 @@ and ( orientation: landscape ) {
 
 /***************form*****************/
 .favorites-wrapper {
-    margin-top: -1.5rem;
-}
-
-.customer-comments {
-  width: 12rem;
+    margin-top: -0.6rem;
 }
 }

@@ -51,7 +51,9 @@ html {
 }
 
 .left-info {
+  font-weight: bold;
   margin-bottom: 1rem;
+  padding-right: 1rem;
   text-align: right;
   vertical-align: top;
   width: 45%;
@@ -60,43 +62,31 @@ html {
 #name,
 #email,
 #age,
-.dropdown {
+#dropdown {
   height: 1.7rem;
 }
 
 #name,
 #email,
 #age,
-.customer-comments {
+#customer-comments {
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
   -webkit-border-radius: 0.1rem;
 }
 
-#name-label,
-#email-label,
-#number-label,
-.referral-title,
-.favorites-title,
-.recommend-title,
-.comments {
-  font-weight: bold;
-  padding-right: 1rem;
-}
-
 #name,
 #email,
 #age,
-.dropdown {
+#dropdown {
   width: 9.9rem;
 }
 
-.dropdown {
+#dropdown {
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
   -webkit-border-radius: 0.1rem;
-  margin-top: 1rem;
 }
 
 
@@ -111,8 +101,8 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.favorites-wrapper {
-  margin-top: -1rem;
+.referral-wrapper {
+  margin-top: 1rem;
 }
 
 .recommend-wrapper {
@@ -138,26 +128,19 @@ input[type=number]::-webkit-outer-spin-button {
   padding-left: 0;
 }
 
-.customer-comments,
-.submit-wrapper {
-  margin-top: 1.18rem;
+.comments-wrapper {
+  margin-top: 1.2rem;
 }
 
-.customer-comments {
+#customer-comments {
   font-family: 'Muli', sans-serif;
   resize: vertical;
 }
 
+/***************submit*****************/
 .submit-wrapper {
+  margin-top: 1.18rem;
   text-align: center;
-}
-
-.author-info {
-  font-weight: bold;
-  letter-spacing: 0.05rem;
-  padding-bottom: 1.5rem;
-  text-align: center;
-  text-transform: lowercase;
 }
 
 #submit {
@@ -184,4 +167,13 @@ input[type=number]::-webkit-outer-spin-button {
 .fa-paper-plane {
   font-size: 0.8rem;
   margin-right: 0.25rem;
+}
+
+/***************footer*****************/
+.author-info {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  text-transform: lowercase;
 }
