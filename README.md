@@ -1,4 +1,4 @@
-# survey-form
+# Customer Survey Form
 A mobile-friendly, responsive survey form.
 
 ## License
