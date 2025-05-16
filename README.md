@@ -5,6 +5,9 @@ A mobile-friendly, responsive survey form.
 - CSS3
 - HTML5
 
+## Live Demo
+[https://jenwin.github.io/Customer-Survey-Form](https://jenwin.github.io/Customer-Survey-Form/)
+
 ## License
 GNU General Public License v3.0
 
