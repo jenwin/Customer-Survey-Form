@@ -1,5 +1,5 @@
 # Customer Survey Form
-A mobile-friendly, responsive survey form.
+A mobile-friendly, responsive survey form designed to gather customer feedback for Jen's Cupcakes and Pastries.
 
 ## Technologies
 - CSS3
