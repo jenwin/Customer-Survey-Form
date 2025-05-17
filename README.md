@@ -12,7 +12,7 @@ A mobile-friendly, responsive survey form designed to gather customer feedback f
 - HTML5
 
 ## Live Demo
-[https://jenwin.github.io/Customer-Survey-Form](https://jenwin.github.io/Customer-Survey-Form/)
+[jenwin.github.io/Customer-Survey-Form](https://jenwin.github.io/Customer-Survey-Form/)
 
 ## License
 GNU General Public License v3.0
